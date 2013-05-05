@@ -8,6 +8,12 @@ Gem::Specification.new do |s|
   s.extensions = ["ext/extconf.rb"]
   s.executables = ["gitsha"]
 
+  s.files = %w(
+    bin/gitsha
+    ext/extconf.rb
+    ext/gitsha.c
+  )
+
   s.homepage = "https://github.com/charliesome/gitsha"
   s.author = "Charlie Somerville"
   s.email = "charlie@charliesomerville.com"
